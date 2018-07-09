@@ -19,7 +19,39 @@ namespace WindowsFormsApp5
 
         private void label1_Click(object sender, EventArgs e)
         {
+      
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double number1 = Convert.ToDouble(num1.Text);
+            double number2 = Convert.ToDouble(num2.Text);
+            double result = number1 / number2;
+            res.Text = result.ToString();
+        }
+
+        private void Mult_Click(object sender, EventArgs e)
+        {
+            double number1 = Convert.ToDouble(num1.Text);
+            double number2 = Convert.ToDouble(num2.Text);
+            double result = number1 * number2;
+            res.Text = result.ToString();
+        }
+
+        private void sum_Click(object sender, EventArgs e)
+        {
+            double number1 = Convert.ToDouble(num1.Text);
+            double number2 = Convert.ToDouble(num2.Text);
+            double result = number1 + number2;
+            res.Text = result.ToString();
+        }
+
+        private void sub_Click(object sender, EventArgs e)
+        {
+            double number1 = Convert.ToDouble(num1.Text);
+            double number2 = Convert.ToDouble(num2.Text);
+            double result = number1 - number2;
+            res.Text = result.ToString();
         }
     }
 }
