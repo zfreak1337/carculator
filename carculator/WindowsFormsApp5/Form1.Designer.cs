@@ -28,59 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Mult = new System.Windows.Forms.Button();
-            this.Div = new System.Windows.Forms.Button();
-            this.sum = new System.Windows.Forms.Button();
-            this.sub = new System.Windows.Forms.Button();
+            this.Multiplication = new System.Windows.Forms.Button();
+            this.Division = new System.Windows.Forms.Button();
+            this.Plus = new System.Windows.Forms.Button();
+            this.Minus = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.num1 = new System.Windows.Forms.TextBox();
             this.num2 = new System.Windows.Forms.TextBox();
             this.res = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // Mult
+            // Multiplication
             // 
-            this.Mult.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Mult.Location = new System.Drawing.Point(24, 74);
-            this.Mult.Name = "Mult";
-            this.Mult.Size = new System.Drawing.Size(49, 56);
-            this.Mult.TabIndex = 0;
-            this.Mult.Text = "*";
-            this.Mult.UseVisualStyleBackColor = true;
-            this.Mult.Click += new System.EventHandler(this.Mult_Click);
+            this.Multiplication.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Multiplication.Location = new System.Drawing.Point(24, 74);
+            this.Multiplication.Name = "Multiplication";
+            this.Multiplication.Size = new System.Drawing.Size(49, 56);
+            this.Multiplication.TabIndex = 0;
+            this.Multiplication.Text = "*";
+            this.Multiplication.UseVisualStyleBackColor = true;
+            this.Multiplication.Click += new System.EventHandler(this.Mult_Click);
             // 
-            // Div
+            // Division
             // 
-            this.Div.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Div.Location = new System.Drawing.Point(95, 74);
-            this.Div.Name = "Div";
-            this.Div.Size = new System.Drawing.Size(49, 56);
-            this.Div.TabIndex = 1;
-            this.Div.Text = "/";
-            this.Div.UseVisualStyleBackColor = true;
-            this.Div.Click += new System.EventHandler(this.button2_Click);
+            this.Division.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Division.Location = new System.Drawing.Point(95, 74);
+            this.Division.Name = "Division";
+            this.Division.Size = new System.Drawing.Size(49, 56);
+            this.Division.TabIndex = 1;
+            this.Division.Text = "/";
+            this.Division.UseVisualStyleBackColor = true;
+            this.Division.Click += new System.EventHandler(this.button2_Click);
             // 
-            // sum
+            // Plus
             // 
-            this.sum.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.sum.Location = new System.Drawing.Point(190, 74);
-            this.sum.Name = "sum";
-            this.sum.Size = new System.Drawing.Size(49, 56);
-            this.sum.TabIndex = 2;
-            this.sum.Text = "+";
-            this.sum.UseVisualStyleBackColor = true;
-            this.sum.Click += new System.EventHandler(this.sum_Click);
+            this.Plus.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Plus.Location = new System.Drawing.Point(190, 74);
+            this.Plus.Name = "Plus";
+            this.Plus.Size = new System.Drawing.Size(49, 56);
+            this.Plus.TabIndex = 2;
+            this.Plus.Text = "+";
+            this.Plus.UseVisualStyleBackColor = true;
+            this.Plus.Click += new System.EventHandler(this.sum_Click);
             // 
-            // sub
+            // Minus
             // 
-            this.sub.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.sub.Location = new System.Drawing.Point(261, 74);
-            this.sub.Name = "sub";
-            this.sub.Size = new System.Drawing.Size(49, 56);
-            this.sub.TabIndex = 3;
-            this.sub.Text = "-";
-            this.sub.UseVisualStyleBackColor = true;
-            this.sub.Click += new System.EventHandler(this.sub_Click);
+            this.Minus.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Minus.Location = new System.Drawing.Point(261, 74);
+            this.Minus.Name = "Minus";
+            this.Minus.Size = new System.Drawing.Size(49, 56);
+            this.Minus.TabIndex = 3;
+            this.Minus.Text = "-";
+            this.Minus.UseVisualStyleBackColor = true;
+            this.Minus.Click += new System.EventHandler(this.sub_Click);
             // 
             // label1
             // 
@@ -121,10 +121,10 @@
             this.Controls.Add(this.num2);
             this.Controls.Add(this.num1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.sub);
-            this.Controls.Add(this.sum);
-            this.Controls.Add(this.Div);
-            this.Controls.Add(this.Mult);
+            this.Controls.Add(this.Minus);
+            this.Controls.Add(this.Plus);
+            this.Controls.Add(this.Division);
+            this.Controls.Add(this.Multiplication);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -134,10 +134,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button Mult;
-        private System.Windows.Forms.Button Div;
-        private System.Windows.Forms.Button sum;
-        private System.Windows.Forms.Button sub;
+        private System.Windows.Forms.Button Multiplication;
+        private System.Windows.Forms.Button Division;
+        private System.Windows.Forms.Button Plus;
+        private System.Windows.Forms.Button Minus;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox num1;
         private System.Windows.Forms.TextBox num2;
