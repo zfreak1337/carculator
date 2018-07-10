@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApp5
+namespace Calculator
 {
-    public interface interface1
+    public interface OoneCalculator
     {
         double Calculate(double firstArgument);
 

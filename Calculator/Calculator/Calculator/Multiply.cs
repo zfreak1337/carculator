@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApp5
+namespace Calculator
 {
-    public class Multiply : WindowsFormsApp5
+   public class Multiply:Calculator
     {
         public double Calculate(double firstArgument, double secondArgument)
         {

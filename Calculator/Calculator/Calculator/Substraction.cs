@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApp5
+namespace Calculator
 {
-    public class Division : WindowsFormsApp5
+    public class Substraction: Calculator
     {
         public double Calculate(double firstArgument, double secondArgument)
         {
-            return firstArgument / secondArgument;
+            return firstArgument-secondArgument;
         }
     }
 }
