@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Calculator
+﻿namespace Calculator
 {
-   public class Multiply:Calculator
+    public class Multiply:Calculator
     {
         public double Calculate(double firstArgument, double secondArgument)
         {
