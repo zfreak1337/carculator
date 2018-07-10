@@ -35,7 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.num1 = new System.Windows.Forms.TextBox();
             this.num2 = new System.Windows.Forms.TextBox();
-            this.res = new System.Windows.Forms.TextBox();
+            this.resultt = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Multiplication
@@ -47,7 +47,7 @@
             this.Multiplication.TabIndex = 0;
             this.Multiplication.Text = "*";
             this.Multiplication.UseVisualStyleBackColor = true;
-            this.Multiplication.Click += new System.EventHandler(this.Mult_Click);
+            this.Multiplication.Click += new System.EventHandler(this.button2_Click);
             // 
             // Division
             // 
@@ -69,7 +69,7 @@
             this.Plus.TabIndex = 2;
             this.Plus.Text = "+";
             this.Plus.UseVisualStyleBackColor = true;
-            this.Plus.Click += new System.EventHandler(this.sum_Click);
+            this.Plus.Click += new System.EventHandler(this.button2_Click);
             // 
             // Minus
             // 
@@ -80,7 +80,7 @@
             this.Minus.TabIndex = 3;
             this.Minus.Text = "-";
             this.Minus.UseVisualStyleBackColor = true;
-            this.Minus.Click += new System.EventHandler(this.sub_Click);
+            this.Minus.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -105,19 +105,20 @@
             this.num2.Size = new System.Drawing.Size(120, 22);
             this.num2.TabIndex = 6;
             // 
-            // res
+            // resultt
             // 
-            this.res.Location = new System.Drawing.Point(69, 155);
-            this.res.Name = "res";
-            this.res.Size = new System.Drawing.Size(195, 22);
-            this.res.TabIndex = 7;
+            this.resultt.Location = new System.Drawing.Point(69, 155);
+            this.resultt.Name = "resultt";
+            this.resultt.Size = new System.Drawing.Size(195, 22);
+            this.resultt.TabIndex = 7;
+            this.resultt.TextChanged += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(354, 393);
-            this.Controls.Add(this.res);
+            this.Controls.Add(this.resultt);
             this.Controls.Add(this.num2);
             this.Controls.Add(this.num1);
             this.Controls.Add(this.label1);
@@ -141,7 +142,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox num1;
         private System.Windows.Forms.TextBox num2;
-        private System.Windows.Forms.TextBox res;
+        private System.Windows.Forms.TextBox resultt;
     }
 }
 
