@@ -16,6 +16,8 @@ namespace Calculator.OneArgument
                     return new Logarithm();
                 case "Sinus":
                     return new Sinus();
+                case "Arcsinus":
+                    return new Arcsinus();
                 default:
                     throw new Exception("Неизвестная операция");
             }

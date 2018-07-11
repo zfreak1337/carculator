@@ -1,7 +1,8 @@
-﻿using Calculator.TwoArguments;
+﻿using Calculator.OneArgument;
+using Calculator.TwoArguments;
 using NUnit.Framework;
 
-namespace CalculatorTest
+namespace CalculatorTest.TwoArgument
 {
     public class ClassMultiply
     {
@@ -9,12 +10,18 @@ namespace CalculatorTest
         [TestFixture]
         public class MultiplyTests
         {
-            [Test]
 
-            public void MultiplyTest()
+
+            [TestCase(1, 1, 1)]
+            [TestCase(3, 2, 6)]
+            [TestCase(5, 3, 15)]
+
+            public void CalculateTest(double firstValue, double secondValue, double expected)
             {
                 var calculator = new Multiply();
-                Assert.AreEqual(3, calculator.Calculate(3, 1));
+                var actualResult = calculator.Calculate(firstValue, secondValue);
+                Assert.AreEqual(expected, actualResult, 0.001);
+
             }
         }
     }

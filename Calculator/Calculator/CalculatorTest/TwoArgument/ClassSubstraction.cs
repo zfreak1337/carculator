@@ -1,24 +1,29 @@
-﻿using Calculator.TwoArguments;
+﻿using Calculator.OneArgument;
+using Calculator.TwoArguments;
 using NUnit.Framework;
 
-namespace CalculatorTest
+namespace CalculatorTest.TwoArgument
 {
+    public class ClassSupstraction
+    {
 
-    public class ClassSubstraction
+        [TestFixture]
+        public class SubstractionTests
         {
 
-            [TestFixture]
-            public class SubstractionTests
-            {
-                [Test]
 
-                public void SubstractionTest()
-                {
-                    var calculator = new Substraction();
-                    Assert.AreEqual(2, calculator.Calculate(3, 1));
-                }
+            [TestCase(1, 1, 0)]
+            [TestCase(6, 2, 4)]
+            [TestCase(9, 3, 6)]
+
+            public void CalculateTest(double firstValue, double secondValue, double expected)
+            {
+                var calculator = new Substraction();
+                var actualResult = calculator.Calculate(firstValue, secondValue);
+                Assert.AreEqual(expected, actualResult, 0.001);
+
             }
         }
-
     }
+}
 

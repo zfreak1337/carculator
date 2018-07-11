@@ -9,5 +9,10 @@ namespace Calculator.OneArgument
             return Math.Log(firstArgument);
       
         }
+
+        public object Calculate(object value)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -1,8 +1,7 @@
 ﻿using Calculator.OneArgument;
-using Calculator.TwoArguments;
 using NUnit.Framework;
 
-namespace CalculatorTest
+namespace CalculatorTest.OneArgument
 {
     public class ClassModule
     {
@@ -10,12 +9,18 @@ namespace CalculatorTest
         [TestFixture]
         public class ModuleTests
         {
-            [Test]
 
-            public void SquaringTest()
+
+            [TestCase(1, 1)]
+            [TestCase(100, 100)]
+            [TestCase(-1000, 1000)]
+
+            public void ModuleTest(double value, double expected)
             {
                 var calculator = new Module();
-                Assert.AreEqual(3, calculator.Calculate(-3));
+                var actualResult = calculator.Calculate(value);
+                Assert.AreEqual(expected, actualResult, 0.001);
+
             }
         }
     }

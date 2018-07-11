@@ -1,7 +1,8 @@
-﻿using Calculator.TwoArguments;
+﻿using Calculator.OneArgument;
+using Calculator.TwoArguments;
 using NUnit.Framework;
 
-namespace CalculatorTest
+namespace CalculatorTest.TwoArgument
 {
     public class ClassDivision
     {
@@ -9,14 +10,19 @@ namespace CalculatorTest
         [TestFixture]
         public class DivisionTests
         {
-            [Test]
 
-            public void DivisionTest()
+
+            [TestCase(1, 1, 1)]
+            [TestCase(6, 2, 3)]
+            [TestCase(9, 3, 3)]
+
+            public void CalculateTest(double firstValue, double secondValue, double expected)
             {
                 var calculator = new Division();
-                Assert.AreEqual(3, calculator.Calculate(3, 1));
+                var actualResult = calculator.Calculate(firstValue, secondValue);
+                Assert.AreEqual(expected, actualResult, 0.001);
+
             }
         }
     }
-
 }

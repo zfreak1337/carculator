@@ -1,8 +1,7 @@
 ﻿using Calculator.OneArgument;
-using Calculator.TwoArguments;
 using NUnit.Framework;
 
-namespace CalculatorTest
+namespace CalculatorTest.OneArgument
 {
     public class ClassLogarithm
     {
@@ -10,12 +9,18 @@ namespace CalculatorTest
         [TestFixture]
         public class LogarithmTests
         {
-            [Test]
+            
 
-            public void SquaringTest()
+            [TestCase(1, 0)]
+            [TestCase(100, 4.605)]
+            [TestCase(1000, 6.907)]
+
+            public void LogarithmTest(double value, double expected)
             {
                 var calculator = new Logarithm();
-                Assert.AreEqual(3, calculator.Calculate(100));
+                var actualResult = calculator.Calculate(value);
+                Assert.AreEqual(expected, actualResult,0.001);
+
             }
         }
     }

@@ -1,8 +1,7 @@
 ﻿using Calculator.OneArgument;
-using Calculator.TwoArguments;
 using NUnit.Framework;
 
-namespace CalculatorTest
+namespace CalculatorTest.OneArgument
 {
     public class ClassSquaring
     {
@@ -10,12 +9,18 @@ namespace CalculatorTest
         [TestFixture]
         public class SquaringTests
         {
-            [Test]
 
-            public void SquaringTest()
+
+            [TestCase(2, 4)]
+            [TestCase(3, 9)]
+            [TestCase(4, 16)]
+
+            public void SquaringTest(double value, double expected)
             {
                 var calculator = new Squaring();
-                Assert.AreEqual(3, calculator.Calculate(3));
+                var actualResult = calculator.Calculate(value);
+                Assert.AreEqual(expected, actualResult, 0.001);
+
             }
         }
     }

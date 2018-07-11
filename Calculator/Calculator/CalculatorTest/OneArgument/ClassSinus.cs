@@ -1,8 +1,7 @@
 ﻿using Calculator.OneArgument;
-using Calculator.TwoArguments;
 using NUnit.Framework;
 
-namespace CalculatorTest
+namespace CalculatorTest.OneArgument
 {
     public class ClassSinus
     {
@@ -10,12 +9,18 @@ namespace CalculatorTest
         [TestFixture]
         public class SinusTests
         {
-            [Test]
 
-            public void SquaringTest()
+
+            [TestCase(60, -0.304)]
+            [TestCase(90, 0.893)]
+            [TestCase(180, -0.801)]
+
+            public void SinusTest(double value, double expected)
             {
                 var calculator = new Sinus();
-                Assert.AreEqual(3, calculator.Calculate(60));
+                var actualResult = calculator.Calculate(value);
+                Assert.AreEqual(expected, actualResult, 0.001);
+
             }
         }
     }
