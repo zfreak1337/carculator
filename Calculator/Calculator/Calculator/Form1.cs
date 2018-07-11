@@ -1,6 +1,7 @@
 ﻿using System;
-using System.Globalization;
 using System.Windows.Forms;
+using Calculator.OneArgument;
+using Calculator.TwoArguments;
 
 namespace Calculator
 {
@@ -22,7 +23,7 @@ namespace Calculator
             double firstNumber = Convert.ToDouble(textBox1.Text);
             double secondNumber = Convert.ToDouble(textBox2.Text);
            
-            Calculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            ICalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
             double answerDigit = calculator.Calculate(firstNumber, secondNumber);
 
 
@@ -75,10 +76,12 @@ namespace Calculator
         private void button1_Click_1(object sender, EventArgs e)
         {
             double firstNumber = Convert.ToDouble(textBox1.Text);
-            OoneCalculator calculator = OneArgumentFactory.CreateCalculator(((Button) sender).Name);
-            double answerDight = calculator.Calculate(firstNumber);
-            textBox3.Text = answerDight.ToString(CultureInfo.InvariantCulture);
+         
 
+            IOoneCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+            double answerDigit = calculator.Calculate(firstNumber);
+
+            textBox3.Text = answerDigit.ToString();
         }
     }
 }
