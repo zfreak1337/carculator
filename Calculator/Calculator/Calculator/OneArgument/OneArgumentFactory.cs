@@ -18,6 +18,10 @@ namespace Calculator.OneArgument
                     return new Sinus();
                 case "Arcsinus":
                     return new Arcsinus();
+                case "Arctangent":
+                    return new Arctangent();
+                case "Arccosinus":
+                    return new Arccosinus();
                 default:
                     throw new Exception("Неизвестная операция");
             }

@@ -50,11 +50,11 @@
             this.Arcsinus = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.Arctangent = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.Arccosinus = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
@@ -222,6 +222,7 @@
             this.button1.TabIndex = 14;
             this.button1.Text = "x^y";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -252,6 +253,7 @@
             this.button4.TabIndex = 17;
             this.button4.Text = "tan";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Arcsinus
             // 
@@ -284,15 +286,16 @@
             this.button7.Text = "ctan";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // Arctangent
             // 
-            this.button8.Location = new System.Drawing.Point(99, 200);
-            this.button8.Margin = new System.Windows.Forms.Padding(4);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(61, 54);
-            this.button8.TabIndex = 21;
-            this.button8.Text = "arctan";
-            this.button8.UseVisualStyleBackColor = true;
+            this.Arctangent.Location = new System.Drawing.Point(560, 138);
+            this.Arctangent.Margin = new System.Windows.Forms.Padding(4);
+            this.Arctangent.Name = "Arctangent";
+            this.Arctangent.Size = new System.Drawing.Size(61, 54);
+            this.Arctangent.TabIndex = 21;
+            this.Arctangent.Text = "arctan";
+            this.Arctangent.UseVisualStyleBackColor = true;
+            this.Arctangent.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button9
             // 
@@ -324,15 +327,16 @@
             this.button11.Text = "ln";
             this.button11.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // Arccosinus
             // 
-            this.button12.Location = new System.Drawing.Point(488, 138);
-            this.button12.Margin = new System.Windows.Forms.Padding(4);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(64, 54);
-            this.button12.TabIndex = 25;
-            this.button12.Text = "arccos";
-            this.button12.UseVisualStyleBackColor = true;
+            this.Arccosinus.Location = new System.Drawing.Point(488, 138);
+            this.Arccosinus.Margin = new System.Windows.Forms.Padding(4);
+            this.Arccosinus.Name = "Arccosinus";
+            this.Arccosinus.Size = new System.Drawing.Size(64, 54);
+            this.Arccosinus.TabIndex = 25;
+            this.Arccosinus.Text = "arccos";
+            this.Arccosinus.UseVisualStyleBackColor = true;
+            this.Arccosinus.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button13
             // 
@@ -378,16 +382,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(592, 463);
+            this.ClientSize = new System.Drawing.Size(1017, 463);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
+            this.Controls.Add(this.Arccosinus);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.Arctangent);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.Arcsinus);
@@ -439,11 +443,11 @@
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button Arccosinus;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button Arctangent;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button Arcsinus;

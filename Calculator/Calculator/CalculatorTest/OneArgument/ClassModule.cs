@@ -3,9 +3,6 @@ using NUnit.Framework;
 
 namespace CalculatorTest.OneArgument
 {
-    public class ClassModule
-    {
-
         [TestFixture]
         public class ModuleTests
         {
@@ -25,4 +22,3 @@ namespace CalculatorTest.OneArgument
         }
     }
 
-}

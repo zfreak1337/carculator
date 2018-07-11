@@ -3,18 +3,12 @@ using NUnit.Framework;
 
 namespace CalculatorTest.OneArgument
 {
-    public class ClassSquaring
-    {
-
         [TestFixture]
         public class SquaringTests
         {
-
-
             [TestCase(2, 4)]
             [TestCase(3, 9)]
             [TestCase(4, 16)]
-
             public void SquaringTest(double value, double expected)
             {
                 var calculator = new Squaring();
@@ -25,4 +19,3 @@ namespace CalculatorTest.OneArgument
         }
     }
 
-}

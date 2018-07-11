@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\Arccosinus.cs" />
     <Compile Include="OneArgument\Arcsinus.cs" />
+    <Compile Include="OneArgument\Arctangent.cs" />
     <Compile Include="TwoArguments\Add.cs" />
     <Compile Include="TwoArguments\Calculator.cs" />
     <Compile Include="TwoArguments\Division.cs" />

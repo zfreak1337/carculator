@@ -3,8 +3,6 @@ using NUnit.Framework;
 
 namespace CalculatorTest.OneArgument
 {
-    public class ClassLogarithm
-    {
 
         [TestFixture]
         public class LogarithmTests
@@ -25,4 +23,3 @@ namespace CalculatorTest.OneArgument
         }
     }
 
-}

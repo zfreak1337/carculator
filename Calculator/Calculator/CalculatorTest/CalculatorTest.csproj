@@ -47,6 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\ClassArccosinus.cs" />
+    <Compile Include="OneArgument\ClassArcsinus.cs" />
+    <Compile Include="OneArgument\ClassArctangent.cs" />
     <Compile Include="OneArgument\ClassLogarithm.cs" />
     <Compile Include="OneArgument\ClassModule.cs" />
     <Compile Include="OneArgument\ClassSinus.cs" />

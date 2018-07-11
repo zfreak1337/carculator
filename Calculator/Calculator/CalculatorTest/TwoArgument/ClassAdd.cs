@@ -1,5 +1,4 @@
-﻿using Calculator.OneArgument;
-using Calculator.TwoArguments;
+﻿using Calculator.TwoArguments;
 using NUnit.Framework;
 
 namespace CalculatorTest.TwoArgument

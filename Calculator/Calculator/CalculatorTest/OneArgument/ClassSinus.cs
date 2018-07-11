@@ -3,9 +3,6 @@ using NUnit.Framework;
 
 namespace CalculatorTest.OneArgument
 {
-    public class ClassSinus
-    {
-
         [TestFixture]
         public class SinusTests
         {
@@ -25,4 +22,3 @@ namespace CalculatorTest.OneArgument
         }
     }
 
-}
