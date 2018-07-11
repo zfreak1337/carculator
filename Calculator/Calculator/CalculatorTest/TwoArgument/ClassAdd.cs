@@ -6,7 +6,6 @@ namespace CalculatorTest
 {
     public class ClassAdd
     {
-
         [TestFixture]
         public class AddTests
         {
