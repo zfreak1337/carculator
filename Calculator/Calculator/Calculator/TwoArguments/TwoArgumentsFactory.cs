@@ -13,9 +13,11 @@ namespace Calculator.TwoArguments
                 case "Division":
                     return  new Division();
                 case "Add":
-                    return  new Add();
+                    return  new Addiction();
                 case "Substraction":
                     return  new Substraction();
+                case "SquaringTwoArguments":
+                    return new SquaringTwoArguments();              
                 default:
                     throw new Exception("Неизвестная операция");
             }

@@ -9,9 +9,9 @@ namespace CalculatorTest.OneArgument
     {
 
 
-        [TestCase(0.5, 0.008)]
-        [TestCase(0.6, 0.010)]
-        [TestCase(0.7, 0.012)]
+        [TestCase(0.5, 0.523)]
+        [TestCase(0.6, 0.643)]
+        [TestCase(0.7, 0.775)]
 
         public void ArcsinusTest(double value, double expected)
         {

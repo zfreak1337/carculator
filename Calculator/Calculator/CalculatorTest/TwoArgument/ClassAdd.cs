@@ -17,7 +17,7 @@ namespace CalculatorTest.TwoArgument
 
             public void CalculateTest(double firstValue, double secondValue, double expected)
             {
-                var calculator = new Add();
+                var calculator = new Addiction();
                 var actualResult = calculator.Calculate(firstValue, secondValue);
                 Assert.AreEqual(expected, actualResult, 0.001);
 
