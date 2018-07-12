@@ -3,26 +3,25 @@ using NUnit.Framework;
 
 namespace CalculatorTest.TwoArgument
 {
-    public class ClassAdd
+    public class ClassSquaringTwoArguments
     {
 
         [TestFixture]
-        public class AddTests
+        public class SquaringTwoArgumentsTests
         {
 
 
-            [TestCase(1, 1,2)]
-            [TestCase(2, 2,4)]
-            [TestCase(3,3,6)]
+            [TestCase(1, 1, 1)]
+            [TestCase(3, 2, 9.0)]
+            [TestCase(5, 3, 125.0)]
 
             public void CalculateTest(double firstValue, double secondValue, double expected)
             {
-                var calculator = new Addiction();
+                var calculator = new SquaringTwoArguments();
                 var actualResult = calculator.Calculate(firstValue, secondValue);
                 Assert.AreEqual(expected, actualResult, 0.001);
 
             }
         }
     }
-
 }

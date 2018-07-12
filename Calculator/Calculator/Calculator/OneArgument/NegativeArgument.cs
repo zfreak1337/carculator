@@ -2,15 +2,15 @@
 
 namespace Calculator.OneArgument
 {
-    public class TwoLogarithmArgument : IOoneCalculator
+    public class NegativeArgument : IOoneCalculator
     {
         /// <summary>
-        /// calculate TwoLogarithmArgument function
+        /// calculate NegativeArgument function
         /// </summary>
         /// <param name="firstArgument"></param>
         public double Calculate(double firstArgument)
         {
-            return Math.Log(2, firstArgument);
+            return -firstArgument;
 
         }
     }

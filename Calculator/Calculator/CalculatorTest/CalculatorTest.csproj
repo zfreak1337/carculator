@@ -54,11 +54,13 @@
     <Compile Include="OneArgument\ClassModule.cs" />
     <Compile Include="OneArgument\ClassSinus.cs" />
     <Compile Include="OneArgument\ClassSquaring.cs" />
-    <Compile Include="TwoArgument\ClassAdd.cs" />
+    <Compile Include="TwoArgument\ClassAddiction.cs" />
     <Compile Include="TwoArgument\ClassDivision.cs" />
     <Compile Include="TwoArgument\ClassMultiply.cs" />
     <Compile Include="TwoArgument\ClassSubstraction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TwoArgument\ClassLogarithmTwoArgument.cs" />
+    <Compile Include="TwoArgument\ClassSquaringTwoArguments.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Calculator\Calculator.csproj">

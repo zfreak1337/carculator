@@ -2,16 +2,15 @@
 
 namespace Calculator.OneArgument
 {
-    public class TwoLogarithmArgument : IOoneCalculator
+    public class Exponent : IOoneCalculator
     {
         /// <summary>
-        /// calculate TwoLogarithmArgument function
+        /// calculate Exponent function
         /// </summary>
         /// <param name="firstArgument"></param>
         public double Calculate(double firstArgument)
         {
-            return Math.Log(2, firstArgument);
-
+            return Math.Pow(Math.E, firstArgument);
         }
     }
 }

@@ -46,15 +46,19 @@
             this.SquaringTwoArguments = new System.Windows.Forms.Button();
             this.Tangent = new System.Windows.Forms.Button();
             this.Arcsinus = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.TwoLogarithmArgument = new System.Windows.Forms.Button();
             this.Ctangent = new System.Windows.Forms.Button();
             this.Arctangent = new System.Windows.Forms.Button();
             this.OneDivisionArgument = new System.Windows.Forms.Button();
             this.Arccosinus = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
+            this.TenLogarithmArgument = new System.Windows.Forms.Button();
             this.TwoSquaringArgument = new System.Windows.Forms.Button();
             this.TenSquaringArgument = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.NegativeArgument = new System.Windows.Forms.Button();
+            this.Exponent = new System.Windows.Forms.Button();
+            this.Cosinus = new System.Windows.Forms.Button();
+            this.LogarithmTwoArgument = new System.Windows.Forms.Button();
+            this.SquaringDivisionTwoArguments = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -242,15 +246,16 @@
             this.Arcsinus.UseVisualStyleBackColor = true;
             this.Arcsinus.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // button6
+            // TwoLogarithmArgument
             // 
-            this.button6.Location = new System.Drawing.Point(416, 200);
-            this.button6.Margin = new System.Windows.Forms.Padding(4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(64, 54);
-            this.button6.TabIndex = 19;
-            this.button6.Text = "log2";
-            this.button6.UseVisualStyleBackColor = true;
+            this.TwoLogarithmArgument.Location = new System.Drawing.Point(368, 136);
+            this.TwoLogarithmArgument.Margin = new System.Windows.Forms.Padding(4);
+            this.TwoLogarithmArgument.Name = "TwoLogarithmArgument";
+            this.TwoLogarithmArgument.Size = new System.Drawing.Size(64, 54);
+            this.TwoLogarithmArgument.TabIndex = 19;
+            this.TwoLogarithmArgument.Text = "log2(x)";
+            this.TwoLogarithmArgument.UseVisualStyleBackColor = true;
+            this.TwoLogarithmArgument.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Ctangent
             // 
@@ -283,6 +288,7 @@
             this.OneDivisionArgument.TabIndex = 22;
             this.OneDivisionArgument.Text = "1/x";
             this.OneDivisionArgument.UseVisualStyleBackColor = true;
+            this.OneDivisionArgument.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Arccosinus
             // 
@@ -295,60 +301,111 @@
             this.Arccosinus.UseVisualStyleBackColor = true;
             this.Arccosinus.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // button13
+            // TenLogarithmArgument
             // 
-            this.button13.Location = new System.Drawing.Point(488, 200);
-            this.button13.Margin = new System.Windows.Forms.Padding(4);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(64, 54);
-            this.button13.TabIndex = 26;
-            this.button13.Text = "log10";
-            this.button13.UseVisualStyleBackColor = true;
+            this.TenLogarithmArgument.Location = new System.Drawing.Point(440, 136);
+            this.TenLogarithmArgument.Margin = new System.Windows.Forms.Padding(4);
+            this.TenLogarithmArgument.Name = "TenLogarithmArgument";
+            this.TenLogarithmArgument.Size = new System.Drawing.Size(72, 54);
+            this.TenLogarithmArgument.TabIndex = 26;
+            this.TenLogarithmArgument.Text = "log10(x)";
+            this.TenLogarithmArgument.UseVisualStyleBackColor = true;
             // 
             // TwoSquaringArgument
             // 
-            this.TwoSquaringArgument.Location = new System.Drawing.Point(789, 76);
+            this.TwoSquaringArgument.Location = new System.Drawing.Point(664, 137);
             this.TwoSquaringArgument.Margin = new System.Windows.Forms.Padding(4);
             this.TwoSquaringArgument.Name = "TwoSquaringArgument";
             this.TwoSquaringArgument.Size = new System.Drawing.Size(64, 54);
             this.TwoSquaringArgument.TabIndex = 27;
             this.TwoSquaringArgument.Text = "2^x";
             this.TwoSquaringArgument.UseVisualStyleBackColor = true;
+            this.TwoSquaringArgument.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // TenSquaringArgument
             // 
-            this.TenSquaringArgument.Location = new System.Drawing.Point(861, 75);
+            this.TenSquaringArgument.Location = new System.Drawing.Point(736, 136);
             this.TenSquaringArgument.Margin = new System.Windows.Forms.Padding(4);
             this.TenSquaringArgument.Name = "TenSquaringArgument";
             this.TenSquaringArgument.Size = new System.Drawing.Size(64, 54);
             this.TenSquaringArgument.TabIndex = 28;
             this.TenSquaringArgument.Text = "10^x";
             this.TenSquaringArgument.UseVisualStyleBackColor = true;
+            this.TenSquaringArgument.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // button16
+            // NegativeArgument
             // 
-            this.button16.Location = new System.Drawing.Point(488, 261);
-            this.button16.Margin = new System.Windows.Forms.Padding(4);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(64, 54);
-            this.button16.TabIndex = 29;
-            this.button16.Text = "-x";
-            this.button16.UseVisualStyleBackColor = true;
+            this.NegativeArgument.Location = new System.Drawing.Point(520, 136);
+            this.NegativeArgument.Margin = new System.Windows.Forms.Padding(4);
+            this.NegativeArgument.Name = "NegativeArgument";
+            this.NegativeArgument.Size = new System.Drawing.Size(64, 54);
+            this.NegativeArgument.TabIndex = 29;
+            this.NegativeArgument.Text = "-x";
+            this.NegativeArgument.UseVisualStyleBackColor = true;
+            this.NegativeArgument.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // Exponent
+            // 
+            this.Exponent.Location = new System.Drawing.Point(592, 136);
+            this.Exponent.Margin = new System.Windows.Forms.Padding(4);
+            this.Exponent.Name = "Exponent";
+            this.Exponent.Size = new System.Drawing.Size(64, 54);
+            this.Exponent.TabIndex = 30;
+            this.Exponent.Text = "e^x";
+            this.Exponent.UseVisualStyleBackColor = true;
+            this.Exponent.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // Cosinus
+            // 
+            this.Cosinus.Location = new System.Drawing.Point(789, 77);
+            this.Cosinus.Margin = new System.Windows.Forms.Padding(4);
+            this.Cosinus.Name = "Cosinus";
+            this.Cosinus.Size = new System.Drawing.Size(61, 53);
+            this.Cosinus.TabIndex = 31;
+            this.Cosinus.Text = "cos";
+            this.Cosinus.UseVisualStyleBackColor = true;
+            this.Cosinus.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // LogarithmTwoArgument
+            // 
+            this.LogarithmTwoArgument.Location = new System.Drawing.Point(300, 138);
+            this.LogarithmTwoArgument.Margin = new System.Windows.Forms.Padding(4);
+            this.LogarithmTwoArgument.Name = "LogarithmTwoArgument";
+            this.LogarithmTwoArgument.Size = new System.Drawing.Size(64, 54);
+            this.LogarithmTwoArgument.TabIndex = 32;
+            this.LogarithmTwoArgument.Text = "logy(x)";
+            this.LogarithmTwoArgument.UseVisualStyleBackColor = true;
+            this.LogarithmTwoArgument.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // SquaringDivisionTwoArguments
+            // 
+            this.SquaringDivisionTwoArguments.Location = new System.Drawing.Point(808, 136);
+            this.SquaringDivisionTwoArguments.Margin = new System.Windows.Forms.Padding(4);
+            this.SquaringDivisionTwoArguments.Name = "SquaringDivisionTwoArguments";
+            this.SquaringDivisionTwoArguments.Size = new System.Drawing.Size(64, 54);
+            this.SquaringDivisionTwoArguments.TabIndex = 33;
+            this.SquaringDivisionTwoArguments.Text = "x^(1/y)";
+            this.SquaringDivisionTwoArguments.UseVisualStyleBackColor = true;
+            this.SquaringDivisionTwoArguments.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1017, 463);
-            this.Controls.Add(this.button16);
+            this.Controls.Add(this.SquaringDivisionTwoArguments);
+            this.Controls.Add(this.LogarithmTwoArgument);
+            this.Controls.Add(this.Cosinus);
+            this.Controls.Add(this.Exponent);
+            this.Controls.Add(this.NegativeArgument);
             this.Controls.Add(this.TenSquaringArgument);
             this.Controls.Add(this.TwoSquaringArgument);
-            this.Controls.Add(this.button13);
+            this.Controls.Add(this.TenLogarithmArgument);
             this.Controls.Add(this.Arccosinus);
             this.Controls.Add(this.OneDivisionArgument);
             this.Controls.Add(this.Arctangent);
             this.Controls.Add(this.Ctangent);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.TwoLogarithmArgument);
             this.Controls.Add(this.Arcsinus);
             this.Controls.Add(this.Tangent);
             this.Controls.Add(this.SquaringTwoArguments);
@@ -392,18 +449,22 @@
         private System.Windows.Forms.Button Squaring;
         private System.Windows.Forms.Button Sinus;
         private System.Windows.Forms.Button Logarithm;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button NegativeArgument;
         private System.Windows.Forms.Button TenSquaringArgument;
         private System.Windows.Forms.Button TwoSquaringArgument;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button TenLogarithmArgument;
         private System.Windows.Forms.Button Arccosinus;
         private System.Windows.Forms.Button OneDivisionArgument;
         private System.Windows.Forms.Button Arctangent;
         private System.Windows.Forms.Button Ctangent;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button TwoLogarithmArgument;
         private System.Windows.Forms.Button Arcsinus;
         private System.Windows.Forms.Button Tangent;
         private System.Windows.Forms.Button SquaringTwoArguments;
+        private System.Windows.Forms.Button Exponent;
+        private System.Windows.Forms.Button Cosinus;
+        private System.Windows.Forms.Button LogarithmTwoArgument;
+        private System.Windows.Forms.Button SquaringDivisionTwoArguments;
     }
 }
 
