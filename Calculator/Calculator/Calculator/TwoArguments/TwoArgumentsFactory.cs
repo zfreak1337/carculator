@@ -3,7 +3,7 @@ namespace Calculator.TwoArguments
 {
     public class TwoArgumentsFactory
     {/// <summary>
-     /// calculate Factory function
+     ///  Factory 
      /// </summary>
      /// <param name="calculatorName"></param>
      /// <returns></returns>
