@@ -54,6 +54,16 @@
     <Compile Include="OneArgument\ClassModule.cs" />
     <Compile Include="OneArgument\ClassSinus.cs" />
     <Compile Include="OneArgument\ClassSquaring.cs" />
+    <Compile Include="OneArgument\ClassCosinus.cs" />
+    <Compile Include="OneArgument\ClassCtangent.cs" />
+    <Compile Include="OneArgument\ClassExponent.cs" />
+    <Compile Include="OneArgument\ClassNegativeArgument.cs" />
+    <Compile Include="OneArgument\ClassOneDivisionArgument.cs" />
+    <Compile Include="OneArgument\ClassTangent.cs" />
+    <Compile Include="OneArgument\ClassTenLogarithmArgument.cs" />
+    <Compile Include="OneArgument\ClassTenSquaringArgument.cs" />
+    <Compile Include="OneArgument\ClassTwoLogarithmArgument.cs" />
+    <Compile Include="OneArgument\ClassTwoSquaringArgument.cs" />
     <Compile Include="TwoArgument\ClassAddiction.cs" />
     <Compile Include="TwoArgument\ClassDivision.cs" />
     <Compile Include="TwoArgument\ClassMultiply.cs" />

@@ -2,7 +2,6 @@
 
 namespace Calculator.TwoArguments
 {
-
     public class SquaringDivisionTwoArguments : ICalculator
     {/// <summary>
      /// calculate  SquaringDivisionTwoArguments function

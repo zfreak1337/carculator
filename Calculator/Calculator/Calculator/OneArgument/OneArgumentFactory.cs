@@ -1,9 +1,12 @@
 ﻿using System;
-
 namespace Calculator.OneArgument
 {
     public class OneArgumentFactory
-    {
+    {/// <summary>
+     /// calculate Factory function
+     /// </summary>
+     /// <param name="calculatorName"></param>
+     /// <returns></returns>
         public static IOoneCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

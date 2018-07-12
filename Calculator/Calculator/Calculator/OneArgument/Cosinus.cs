@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace Calculator.OneArgument
 {
     public class Cosinus : IOoneCalculator

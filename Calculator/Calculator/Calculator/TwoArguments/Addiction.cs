@@ -1,6 +1,5 @@
 ﻿namespace Calculator.TwoArguments
 {
- 
     public class Addiction:ICalculator
     {/// <summary>
         /// calculate Addiction function

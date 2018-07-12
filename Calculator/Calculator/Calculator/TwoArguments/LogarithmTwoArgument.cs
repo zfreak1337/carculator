@@ -2,7 +2,6 @@
 
 namespace Calculator.TwoArguments
 {
-
     public class LogarithmTwoArgument : ICalculator
     {/// <summary>
      /// calculate LogarithmTwoArgument function
