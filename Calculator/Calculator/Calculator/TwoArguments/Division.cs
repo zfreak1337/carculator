@@ -11,7 +11,7 @@ namespace Calculator.TwoArguments
         {
             if (secondArgument == 0)
             {
-                throw new Exception("Деление на 0");
+                throw new Exception("Doest exsist");
             }
 
             return firstArgument / secondArgument;

@@ -9,6 +9,10 @@ namespace Calculator.OneArgument
         /// <param name="firstArgument"></param>
         public double Calculate(double firstArgument)
         {
+            if (firstArgument == 0 || firstArgument == -1)
+            {
+                throw new Exception("Doest exsist");
+            }
             return Math.Log(firstArgument);
 
         }
