@@ -24,6 +24,17 @@ namespace Calculator.TwoArguments
                     return new SquaringTwoArguments();
                 case "SquarinigDivisionTwoArgument":
                     return new SquaringDivisionTwoArguments();
+                case "SquareAdd":
+                    return new SquareAdd();
+                case "SquareSum":
+                    return new SquareSum();
+                case "percent":
+                    return new Percent();
+                case "negativeDegree":
+                    return new NegativeDegree();
+                case "SquareDifference":
+                    return new SquareDifference();
+
                 default:
                     throw new Exception("Неизвестная операция");
             }

@@ -45,6 +45,10 @@ namespace Calculator.OneArgument
                     return new NegativeArgument();
                 case "Exponent":
                     return new Exponent();
+                case "Negative":
+                    return new Negative();
+                case "Root":
+                    return new Root();
                 default:
                     throw new Exception("Неизвестная операция");
             }

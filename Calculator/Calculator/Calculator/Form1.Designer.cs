@@ -59,6 +59,13 @@
             this.Cosinus = new System.Windows.Forms.Button();
             this.LogarithmTwoArgument = new System.Windows.Forms.Button();
             this.SquaringDivisionTwoArguments = new System.Windows.Forms.Button();
+            this.SquareDifference = new System.Windows.Forms.Button();
+            this.negativeDegree = new System.Windows.Forms.Button();
+            this.percent = new System.Windows.Forms.Button();
+            this.SquareSum = new System.Windows.Forms.Button();
+            this.SquareAdd = new System.Windows.Forms.Button();
+            this.Negative = new System.Windows.Forms.Button();
+            this.Root = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -388,11 +395,95 @@
             this.SquaringDivisionTwoArguments.UseVisualStyleBackColor = true;
             this.SquaringDivisionTwoArguments.Click += new System.EventHandler(this.button1_Click);
             // 
+            // SquareDifference
+            // 
+            this.SquareDifference.Location = new System.Drawing.Point(808, 262);
+            this.SquareDifference.Margin = new System.Windows.Forms.Padding(4);
+            this.SquareDifference.Name = "SquareDifference";
+            this.SquareDifference.Size = new System.Drawing.Size(59, 53);
+            this.SquareDifference.TabIndex = 43;
+            this.SquareDifference.Text = "x^2-y^2";
+            this.SquareDifference.UseVisualStyleBackColor = true;
+            this.SquareDifference.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // negativeDegree
+            // 
+            this.negativeDegree.Location = new System.Drawing.Point(669, 262);
+            this.negativeDegree.Margin = new System.Windows.Forms.Padding(4);
+            this.negativeDegree.Name = "negativeDegree";
+            this.negativeDegree.Size = new System.Drawing.Size(59, 53);
+            this.negativeDegree.TabIndex = 42;
+            this.negativeDegree.Text = "x^(-y)";
+            this.negativeDegree.UseVisualStyleBackColor = true;
+            this.negativeDegree.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // percent
+            // 
+            this.percent.Location = new System.Drawing.Point(586, 261);
+            this.percent.Margin = new System.Windows.Forms.Padding(4);
+            this.percent.Name = "percent";
+            this.percent.Size = new System.Drawing.Size(59, 53);
+            this.percent.TabIndex = 41;
+            this.percent.Text = "%";
+            this.percent.UseVisualStyleBackColor = true;
+            this.percent.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // SquareSum
+            // 
+            this.SquareSum.Location = new System.Drawing.Point(440, 261);
+            this.SquareSum.Margin = new System.Windows.Forms.Padding(4);
+            this.SquareSum.Name = "SquareSum";
+            this.SquareSum.Size = new System.Drawing.Size(59, 53);
+            this.SquareSum.TabIndex = 40;
+            this.SquareSum.Text = "(x+y)^2";
+            this.SquareSum.UseVisualStyleBackColor = true;
+            this.SquareSum.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // SquareAdd
+            // 
+            this.SquareAdd.Location = new System.Drawing.Point(514, 261);
+            this.SquareAdd.Margin = new System.Windows.Forms.Padding(4);
+            this.SquareAdd.Name = "SquareAdd";
+            this.SquareAdd.Size = new System.Drawing.Size(59, 53);
+            this.SquareAdd.TabIndex = 39;
+            this.SquareAdd.Text = "x^2+y^2";
+            this.SquareAdd.UseVisualStyleBackColor = true;
+            this.SquareAdd.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Negative
+            // 
+            this.Negative.Location = new System.Drawing.Point(741, 262);
+            this.Negative.Margin = new System.Windows.Forms.Padding(4);
+            this.Negative.Name = "Negative";
+            this.Negative.Size = new System.Drawing.Size(59, 53);
+            this.Negative.TabIndex = 38;
+            this.Negative.Text = "x*-1";
+            this.Negative.UseVisualStyleBackColor = true;
+            this.Negative.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // Root
+            // 
+            this.Root.Location = new System.Drawing.Point(373, 260);
+            this.Root.Margin = new System.Windows.Forms.Padding(4);
+            this.Root.Name = "Root";
+            this.Root.Size = new System.Drawing.Size(59, 53);
+            this.Root.TabIndex = 37;
+            this.Root.Text = "Root";
+            this.Root.UseVisualStyleBackColor = true;
+            this.Root.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1017, 463);
+            this.Controls.Add(this.SquareDifference);
+            this.Controls.Add(this.negativeDegree);
+            this.Controls.Add(this.percent);
+            this.Controls.Add(this.SquareSum);
+            this.Controls.Add(this.SquareAdd);
+            this.Controls.Add(this.Negative);
+            this.Controls.Add(this.Root);
             this.Controls.Add(this.SquaringDivisionTwoArguments);
             this.Controls.Add(this.LogarithmTwoArgument);
             this.Controls.Add(this.Cosinus);
@@ -465,6 +556,13 @@
         private System.Windows.Forms.Button Cosinus;
         private System.Windows.Forms.Button LogarithmTwoArgument;
         private System.Windows.Forms.Button SquaringDivisionTwoArguments;
+        private System.Windows.Forms.Button SquareDifference;
+        private System.Windows.Forms.Button negativeDegree;
+        private System.Windows.Forms.Button percent;
+        private System.Windows.Forms.Button SquareSum;
+        private System.Windows.Forms.Button SquareAdd;
+        private System.Windows.Forms.Button Negative;
+        private System.Windows.Forms.Button Root;
     }
 }
 
