@@ -1,23 +1,18 @@
 ﻿using Calculator.OneArgument;
 using NUnit.Framework;
-
 namespace CalculatorTest.OneArgument
 {
     [TestFixture]
-    public class TwoSquaringArgumentTest
+    public class ArccosinusTests
     {
-
-
-        [TestCase(1, 2.0)]
-        [TestCase(2, 4.0)]
-        [TestCase(3, 8.0)]
-
-        public void TwoSquaringArgument(double value, double expected)
+        [TestCase(0.5, 1.047)]
+        [TestCase(0.7, 0.795)]
+        [TestCase(0.8, 0.643)]
+        public void ArccosinusTest(double value, double expected)
         {
-            var calculator = new TwoSquaringArgument();
+            var calculator = new Arccosinus();
             var actualResult = calculator.Calculate(value);
             Assert.AreEqual(expected, actualResult, 0.001);
-
         }
     }
 }

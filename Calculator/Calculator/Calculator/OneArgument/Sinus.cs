@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Calculator.OneArgument
 {
-    public class Sinus : IOoneCalculator
+    public class Sinus : IOneCalculator
     {/// <summary>
         /// calculate sinus function
         /// </summary>

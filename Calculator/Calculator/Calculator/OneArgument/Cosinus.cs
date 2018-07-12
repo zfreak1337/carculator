@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Calculator.OneArgument
 {
-    public class Cosinus : IOoneCalculator
+    public class Cosinus : IOneCalculator
     {/// <summary>
      /// calculate Cosinus function
      /// </summary>

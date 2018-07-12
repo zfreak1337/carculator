@@ -47,32 +47,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneArgument\ClassArccosinus.cs" />
-    <Compile Include="OneArgument\ClassArcsinus.cs" />
-    <Compile Include="OneArgument\ClassArctangent.cs" />
-    <Compile Include="OneArgument\ClassLogarithm.cs" />
-    <Compile Include="OneArgument\ClassModule.cs" />
-    <Compile Include="OneArgument\ClassOneArgumentsFactory.cs" />
-    <Compile Include="OneArgument\ClassSinus.cs" />
-    <Compile Include="OneArgument\ClassSquaring.cs" />
-    <Compile Include="OneArgument\ClassCosinus.cs" />
-    <Compile Include="OneArgument\ClassCtangent.cs" />
-    <Compile Include="OneArgument\ClassExponent.cs" />
-    <Compile Include="OneArgument\ClassNegativeArgument.cs" />
-    <Compile Include="OneArgument\ClassOneDivisionArgument.cs" />
-    <Compile Include="OneArgument\ClassTangent.cs" />
-    <Compile Include="OneArgument\ClassTenLogarithmArgument.cs" />
-    <Compile Include="OneArgument\ClassTenSquaringArgument.cs" />
-    <Compile Include="OneArgument\ClassTwoLogarithmArgument.cs" />
-    <Compile Include="OneArgument\ClassTwoSquaringArgument.cs" />
-    <Compile Include="TwoArgument\ClassAddiction.cs" />
-    <Compile Include="TwoArgument\ClassDivision.cs" />
-    <Compile Include="TwoArgument\ClassMultiply.cs" />
-    <Compile Include="TwoArgument\ClassSubstraction.cs" />
+    <Compile Include="OneArgument\ArccosinusTest.cs" />
+    <Compile Include="OneArgument\ArcsinusTest.cs" />
+    <Compile Include="OneArgument\TestArctangent.cs" />
+    <Compile Include="OneArgument\LogarithmTest.cs" />
+    <Compile Include="OneArgument\ModuleTest.cs" />
+    <Compile Include="OneArgument\OneArgumentsFactoryTest.cs" />
+    <Compile Include="OneArgument\SinusTest.cs" />
+    <Compile Include="OneArgument\SquaringTest.cs" />
+    <Compile Include="OneArgument\CosinusTest.cs" />
+    <Compile Include="OneArgument\CtangentTest.cs" />
+    <Compile Include="OneArgument\ExponentTest.cs" />
+    <Compile Include="OneArgument\NegativeArgumentTest.cs" />
+    <Compile Include="OneArgument\OneDivisionArgumentTest.cs" />
+    <Compile Include="OneArgument\TangentTest.cs" />
+    <Compile Include="OneArgument\TenLogarithmArgumentTest.cs" />
+    <Compile Include="OneArgument\TenSquaringArgumentTest.cs" />
+    <Compile Include="OneArgument\TwoLogarithmArgumentTest.cs" />
+    <Compile Include="OneArgument\TwoSquaringArgumentTest.cs" />
+    <Compile Include="TwoArgument\AddictionTest.cs" />
+    <Compile Include="TwoArgument\DivisionTest.cs" />
+    <Compile Include="TwoArgument\MultiplyTest.cs" />
+    <Compile Include="TwoArgument\SubstractionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TwoArgument\ClassLogarithmTwoArgument.cs" />
-    <Compile Include="TwoArgument\ClassSquaringTwoArguments.cs" />
-    <Compile Include="TwoArgument\ClassTwoArgumentsFactory.cs" />
+    <Compile Include="TwoArgument\LogarithmTwoArgumentTest.cs" />
+    <Compile Include="TwoArgument\SquaringTwoArgumentsTest.cs" />
+    <Compile Include="TwoArgument\TwoArgumentsFactoryTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Calculator\Calculator.csproj">

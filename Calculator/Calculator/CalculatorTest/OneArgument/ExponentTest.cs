@@ -1,24 +1,18 @@
 ﻿using Calculator.OneArgument;
 using NUnit.Framework;
-
 namespace CalculatorTest.OneArgument
 {
-
     [TestFixture]
-    public class ArcsinusTests
+    public class ExponentTests
     {
-
-
-        [TestCase(0.5, 0.523)]
-        [TestCase(0.6, 0.643)]
-        [TestCase(0.7, 0.775)]
-
-        public void ArcsinusTest(double value, double expected)
+        [TestCase(10, 22026.465)]
+        [TestCase(15, 3269017.372)]
+        [TestCase(20, 485165195.409)]
+        public void ExponentTest(double value, double expected)
         {
-            var calculator = new Arcsinus();
+            var calculator = new Exponent();
             var actualResult = calculator.Calculate(value);
             Assert.AreEqual(expected, actualResult, 0.001);
-
         }
     }
 }

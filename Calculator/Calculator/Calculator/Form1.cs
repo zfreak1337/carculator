@@ -9,14 +9,8 @@ namespace Calculator
     {
         public Form1()
         {
-
             InitializeComponent();
-
-
-
         }
-
-
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -36,51 +30,6 @@ namespace Calculator
             {
                 textBox3.Text = exc.Message;
             }
-            
-
-            
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void eventLog1_EntryWritten(object sender, System.Diagnostics.EntryWrittenEventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -90,7 +39,7 @@ namespace Calculator
                 double firstNumber = Convert.ToDouble(textBox1.Text);
 
 
-                IOoneCalculator calculator = OneArgumentFactory.CreateCalculator(((Button) sender).Name);
+                IOneCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
                 double answerDigit = calculator.Calculate(firstNumber);
 
                 textBox3.Text = answerDigit.ToString();

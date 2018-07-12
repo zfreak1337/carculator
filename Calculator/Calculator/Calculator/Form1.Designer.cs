@@ -92,7 +92,6 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(319, 22);
             this.textBox3.TabIndex = 2;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // Multiply
             // 
@@ -147,7 +146,6 @@
             this.label1.Size = new System.Drawing.Size(61, 17);
             this.label1.TabIndex = 7;
             this.label1.Text = "first digit";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -158,7 +156,6 @@
             this.label2.Size = new System.Drawing.Size(84, 17);
             this.label2.TabIndex = 8;
             this.label2.Text = "second digit";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -169,12 +166,10 @@
             this.label3.Size = new System.Drawing.Size(53, 17);
             this.label3.TabIndex = 9;
             this.label3.Text = "answer";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // eventLog1
             // 
             this.eventLog1.SynchronizingObject = this;
-            this.eventLog1.EntryWritten += new System.Diagnostics.EntryWrittenEventHandler(this.eventLog1_EntryWritten);
             // 
             // Logarithm
             // 

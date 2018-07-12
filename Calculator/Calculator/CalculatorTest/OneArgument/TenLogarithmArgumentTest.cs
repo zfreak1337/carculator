@@ -6,8 +6,6 @@ namespace CalculatorTest.OneArgument
     [TestFixture]
     public class TenLogarithmArgumentTest
     {
-
-
         [TestCase(60, 0.5623)]
         [TestCase(90, 0.511)]
         [TestCase(180, 0.443)]

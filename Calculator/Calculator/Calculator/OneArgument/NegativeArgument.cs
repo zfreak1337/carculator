@@ -1,7 +1,6 @@
-﻿using System;
-namespace Calculator.OneArgument
+﻿namespace Calculator.OneArgument
 {
-    public class NegativeArgument : IOoneCalculator
+    public class NegativeArgument : IOneCalculator
     {
         /// <summary>
         /// calculate NegativeArgument function

@@ -7,7 +7,7 @@ namespace Calculator.OneArgument
      /// </summary>
      /// <param name="calculatorName"></param>
      /// <returns></returns>
-        public static IOoneCalculator CreateCalculator(string calculatorName)
+        public static IOneCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)
             {

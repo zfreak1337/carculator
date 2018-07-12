@@ -1,7 +1,6 @@
 ﻿using System;
 using Calculator.OneArgument;
 using NUnit.Framework;
-
 namespace CalculatorTest.OneArgument
 {
     class ClassOneArgumentsFactoryTests
@@ -23,7 +22,6 @@ namespace CalculatorTest.OneArgument
         [TestCase("NegativeArgument", typeof(NegativeArgument))]
         [TestCase("Exponent", typeof(Exponent))]
         public void FirstTest(string name, Type type)
-
         {
             var calculator = OneArgumentFactory.CreateCalculator(name);
             Assert.IsInstanceOf(type, calculator);

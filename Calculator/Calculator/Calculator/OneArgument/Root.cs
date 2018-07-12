@@ -2,7 +2,7 @@
 
 namespace Calculator.OneArgument
 {
-    public class Root : IOoneCalculator
+    public class Root : IOneCalculator
     {/// <summary>
         /// calculate Root function
         /// </summary>

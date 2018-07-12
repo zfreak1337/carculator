@@ -1,21 +1,16 @@
 ﻿using Calculator.OneArgument;
 using NUnit.Framework;
-
 namespace CalculatorTest.OneArgument
 {
-
     [TestFixture]
-    public class NegativeArgumentTests
+    public class TangentTests
     {
-
-
-        [TestCase(10, -10.0)]
-        [TestCase(15, -15.0)]
-        [TestCase(20, -20.0)]
-
-        public void ArctangentTest(double value, double expected)
+        [TestCase(10, 0.648)]
+        [TestCase(15, -0.855)]
+        [TestCase(20, 2.237)]
+        public void TangentTest(double value, double expected)
         {
-            var calculator = new NegativeArgument();
+            var calculator = new Tangent();
             var actualResult = calculator.Calculate(value);
             Assert.AreEqual(expected, actualResult, 0.001);
 

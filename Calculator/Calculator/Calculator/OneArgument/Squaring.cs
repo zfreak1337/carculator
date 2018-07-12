@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Calculator.OneArgument
 {
-    public class Squaring : IOoneCalculator
+    public class Squaring : IOneCalculator
     {/// <summary>
         /// calculate Squaring function
         /// </summary>

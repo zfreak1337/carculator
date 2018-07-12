@@ -1,7 +1,6 @@
 ﻿using System;
 using Calculator.TwoArguments;
 using NUnit.Framework;
-
 namespace CalculatorTest.TwoArgument
 {
    class ClassTwoArgumentsFactoryTests
@@ -15,7 +14,6 @@ namespace CalculatorTest.TwoArgument
         [TestCase("Multiply", typeof(Multiply))]
         [TestCase("Multiply", typeof(Multiply))]
         public void FirstTest(string name, Type type)
-
         {
             var calculator = TwoArgumentsFactory.CreateCalculator(name);
             Assert.IsInstanceOf(type, calculator);

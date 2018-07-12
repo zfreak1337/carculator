@@ -1,27 +1,21 @@
 ﻿using Calculator.TwoArguments;
 using NUnit.Framework;
-
 namespace CalculatorTest.TwoArgument
 {
-    public class ClassLogarithmTwoArgument
+    [TestFixture]
+    public class ClassSupstraction
     {
-
-        [TestFixture]
-        public class LogarithmTwoArgumentTests
-        {
-
-
-            [TestCase(150, 6, 2.796)]
-            [TestCase(3, 2, 1.584)]
-            [TestCase(5, 3, 1.464)]
-
+            [TestCase(1, 1, 0)]
+            [TestCase(6, 2, 4)]
+            [TestCase(9, 3, 6)]
             public void CalculateTest(double firstValue, double secondValue, double expected)
             {
-                var calculator = new LogarithmTwoArgument();
+                var calculator = new Substraction();
                 var actualResult = calculator.Calculate(firstValue, secondValue);
                 Assert.AreEqual(expected, actualResult, 0.001);
 
             }
         }
     }
-}
+
+

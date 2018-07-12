@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Calculator.OneArgument
 {
-    public class Arctangent: IOoneCalculator
+    public class Arctangent: IOneCalculator
     {/// <summary>
         /// calculate Arctangent function
         /// </summary>

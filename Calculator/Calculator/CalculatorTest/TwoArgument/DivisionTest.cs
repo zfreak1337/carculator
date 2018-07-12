@@ -3,26 +3,19 @@ using NUnit.Framework;
 
 namespace CalculatorTest.TwoArgument
 {
-    public class ClassSupstraction
+    [TestFixture]
+    public class DivisionTest
     {
-
-        [TestFixture]
-        public class SubstractionTests
-        {
-
-
-            [TestCase(1, 1, 0)]
-            [TestCase(6, 2, 4)]
-            [TestCase(9, 3, 6)]
+            [TestCase(1, 1, 1)]
+            [TestCase(6, 2, 3)]
+            [TestCase(9, 3, 3)]
 
             public void CalculateTest(double firstValue, double secondValue, double expected)
             {
-                var calculator = new Substraction();
+                var calculator = new Division();
                 var actualResult = calculator.Calculate(firstValue, secondValue);
                 Assert.AreEqual(expected, actualResult, 0.001);
 
             }
         }
     }
-}
-

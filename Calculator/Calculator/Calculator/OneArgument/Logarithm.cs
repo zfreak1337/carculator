@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Calculator.OneArgument
 {
-    public class Logarithm : IOoneCalculator
+    public class Logarithm : IOneCalculator
     {
         /// <summary>
         /// calculate Logarithm function

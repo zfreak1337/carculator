@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Calculator.OneArgument
 {
-    public class Arccosinus : IOoneCalculator
+    public class Arccosinus : IOneCalculator
     {/// <summary>
     /// calculate arccosinus function
     /// </summary>

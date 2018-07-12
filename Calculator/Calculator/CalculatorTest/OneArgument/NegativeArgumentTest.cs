@@ -3,26 +3,17 @@ using NUnit.Framework;
 
 namespace CalculatorTest.OneArgument
 {
-
     [TestFixture]
-    public class ArctangentTests
+    public class NegativeArgumentTests
     {
-
-
-        [TestCase(10, 1.471)]
-        [TestCase(15, 1.504)]
-        [TestCase(20, 1.520)]
-
+        [TestCase(10, -10.0)]
+        [TestCase(15, -15.0)]
+        [TestCase(20, -20.0)]
         public void ArctangentTest(double value, double expected)
         {
-            var calculator = new Arctangent();
+            var calculator = new NegativeArgument();
             var actualResult = calculator.Calculate(value);
             Assert.AreEqual(expected, actualResult, 0.001);
-
         }
     }
 }
-   
-       
-   
-

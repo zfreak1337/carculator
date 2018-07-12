@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Calculator.OneArgument
 {
-    public class Exponent : IOoneCalculator
+    public class Exponent : IOneCalculator
     {
         /// <summary>
         /// calculate Exponent function
