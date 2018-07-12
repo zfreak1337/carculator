@@ -49,6 +49,10 @@
     <Compile Include="OneArgument\Arccosinus.cs" />
     <Compile Include="OneArgument\Arcsinus.cs" />
     <Compile Include="OneArgument\Arctangent.cs" />
+    <Compile Include="OneArgument\Ctangent.cs" />
+    <Compile Include="OneArgument\OneDivisionArgument.cs" />
+    <Compile Include="OneArgument\Tangent.cs" />
+    <Compile Include="OneArgument\TenSquaringArgument.cs" />
     <Compile Include="OneArgument\TwoSquaringArgument.cs" />
     <Compile Include="TwoArguments\Addiction.cs" />
     <Compile Include="TwoArguments\Calculator.cs" />

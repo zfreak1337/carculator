@@ -24,6 +24,14 @@ namespace Calculator.OneArgument
                     return new Arccosinus();
                 case "TwoSquaringArgument":
                     return new TwoSquaringArgument();
+                case "Ctangent":
+                    return new Ctangent();
+                case "Tangent":
+                    return new Tangent();
+                case "TenSquaringArgument":
+                    return new TenSquaringArgument();
+                case "OneDivisionArgument":
+                    return new OneDivisionArgument();
                 default:
                     throw new Exception("Неизвестная операция");
             }

@@ -44,16 +44,16 @@
             this.Squaring = new System.Windows.Forms.Button();
             this.Module = new System.Windows.Forms.Button();
             this.SquaringTwoArguments = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.Tangent = new System.Windows.Forms.Button();
             this.Arcsinus = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.Ctangent = new System.Windows.Forms.Button();
             this.Arctangent = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.OneDivisionArgument = new System.Windows.Forms.Button();
             this.Arccosinus = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.TwoSquaringArgument = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
+            this.TenSquaringArgument = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.SuspendLayout();
@@ -61,7 +61,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(16, 27);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(165, 22);
             this.textBox1.TabIndex = 0;
@@ -69,7 +69,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(209, 27);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(125, 22);
             this.textBox2.TabIndex = 1;
@@ -77,7 +77,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(16, 375);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(319, 22);
             this.textBox3.TabIndex = 2;
@@ -86,7 +86,7 @@
             // Multiply
             // 
             this.Multiply.Location = new System.Drawing.Point(16, 75);
-            this.Multiply.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Multiply.Margin = new System.Windows.Forms.Padding(4);
             this.Multiply.Name = "Multiply";
             this.Multiply.Size = new System.Drawing.Size(59, 54);
             this.Multiply.TabIndex = 3;
@@ -97,7 +97,7 @@
             // Division
             // 
             this.Division.Location = new System.Drawing.Point(83, 76);
-            this.Division.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Division.Margin = new System.Windows.Forms.Padding(4);
             this.Division.Name = "Division";
             this.Division.Size = new System.Drawing.Size(61, 54);
             this.Division.TabIndex = 4;
@@ -108,7 +108,7 @@
             // Add
             // 
             this.Add.Location = new System.Drawing.Point(152, 76);
-            this.Add.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Add.Margin = new System.Windows.Forms.Padding(4);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(65, 54);
             this.Add.TabIndex = 5;
@@ -119,7 +119,7 @@
             // Substraction
             // 
             this.Substraction.Location = new System.Drawing.Point(225, 76);
-            this.Substraction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Substraction.Margin = new System.Windows.Forms.Padding(4);
             this.Substraction.Name = "Substraction";
             this.Substraction.Size = new System.Drawing.Size(64, 54);
             this.Substraction.TabIndex = 6;
@@ -168,7 +168,7 @@
             // Logarithm
             // 
             this.Logarithm.Location = new System.Drawing.Point(16, 137);
-            this.Logarithm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Logarithm.Margin = new System.Windows.Forms.Padding(4);
             this.Logarithm.Name = "Logarithm";
             this.Logarithm.Size = new System.Drawing.Size(59, 53);
             this.Logarithm.TabIndex = 10;
@@ -178,8 +178,8 @@
             // 
             // Sinus
             // 
-            this.Sinus.Location = new System.Drawing.Point(99, 137);
-            this.Sinus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Sinus.Location = new System.Drawing.Point(368, 75);
+            this.Sinus.Margin = new System.Windows.Forms.Padding(4);
             this.Sinus.Name = "Sinus";
             this.Sinus.Size = new System.Drawing.Size(61, 53);
             this.Sinus.TabIndex = 11;
@@ -189,8 +189,8 @@
             // 
             // Squaring
             // 
-            this.Squaring.Location = new System.Drawing.Point(184, 137);
-            this.Squaring.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Squaring.Location = new System.Drawing.Point(83, 137);
+            this.Squaring.Margin = new System.Windows.Forms.Padding(4);
             this.Squaring.Name = "Squaring";
             this.Squaring.Size = new System.Drawing.Size(65, 53);
             this.Squaring.TabIndex = 12;
@@ -200,8 +200,8 @@
             // 
             // Module
             // 
-            this.Module.Location = new System.Drawing.Point(272, 138);
-            this.Module.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Module.Location = new System.Drawing.Point(156, 138);
+            this.Module.Margin = new System.Windows.Forms.Padding(4);
             this.Module.Name = "Module";
             this.Module.Size = new System.Drawing.Size(64, 52);
             this.Module.TabIndex = 13;
@@ -220,20 +220,20 @@
             this.SquaringTwoArguments.UseVisualStyleBackColor = true;
             this.SquaringTwoArguments.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button4
+            // Tangent
             // 
-            this.button4.Location = new System.Drawing.Point(437, 100);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(64, 54);
-            this.button4.TabIndex = 17;
-            this.button4.Text = "tan";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button1_Click_1);
+            this.Tangent.Location = new System.Drawing.Point(437, 76);
+            this.Tangent.Margin = new System.Windows.Forms.Padding(4);
+            this.Tangent.Name = "Tangent";
+            this.Tangent.Size = new System.Drawing.Size(64, 54);
+            this.Tangent.TabIndex = 17;
+            this.Tangent.Text = "tan";
+            this.Tangent.UseVisualStyleBackColor = true;
+            this.Tangent.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Arcsinus
             // 
-            this.Arcsinus.Location = new System.Drawing.Point(509, 100);
+            this.Arcsinus.Location = new System.Drawing.Point(509, 76);
             this.Arcsinus.Margin = new System.Windows.Forms.Padding(4);
             this.Arcsinus.Name = "Arcsinus";
             this.Arcsinus.Size = new System.Drawing.Size(64, 54);
@@ -252,19 +252,20 @@
             this.button6.Text = "log2";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // Ctangent
             // 
-            this.button7.Location = new System.Drawing.Point(16, 198);
-            this.button7.Margin = new System.Windows.Forms.Padding(4);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(59, 54);
-            this.button7.TabIndex = 20;
-            this.button7.Text = "ctan";
-            this.button7.UseVisualStyleBackColor = true;
+            this.Ctangent.Location = new System.Drawing.Point(722, 76);
+            this.Ctangent.Margin = new System.Windows.Forms.Padding(4);
+            this.Ctangent.Name = "Ctangent";
+            this.Ctangent.Size = new System.Drawing.Size(59, 54);
+            this.Ctangent.TabIndex = 20;
+            this.Ctangent.Text = "ctan";
+            this.Ctangent.UseVisualStyleBackColor = true;
+            this.Ctangent.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Arctangent
             // 
-            this.Arctangent.Location = new System.Drawing.Point(666, 100);
+            this.Arctangent.Location = new System.Drawing.Point(653, 76);
             this.Arctangent.Margin = new System.Windows.Forms.Padding(4);
             this.Arctangent.Name = "Arctangent";
             this.Arctangent.Size = new System.Drawing.Size(61, 54);
@@ -273,19 +274,19 @@
             this.Arctangent.UseVisualStyleBackColor = true;
             this.Arctangent.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // button9
+            // OneDivisionArgument
             // 
-            this.button9.Location = new System.Drawing.Point(185, 198);
-            this.button9.Margin = new System.Windows.Forms.Padding(4);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(64, 54);
-            this.button9.TabIndex = 22;
-            this.button9.Text = "1/x";
-            this.button9.UseVisualStyleBackColor = true;
+            this.OneDivisionArgument.Location = new System.Drawing.Point(228, 138);
+            this.OneDivisionArgument.Margin = new System.Windows.Forms.Padding(4);
+            this.OneDivisionArgument.Name = "OneDivisionArgument";
+            this.OneDivisionArgument.Size = new System.Drawing.Size(64, 54);
+            this.OneDivisionArgument.TabIndex = 22;
+            this.OneDivisionArgument.Text = "1/x";
+            this.OneDivisionArgument.UseVisualStyleBackColor = true;
             // 
             // Arccosinus
             // 
-            this.Arccosinus.Location = new System.Drawing.Point(581, 100);
+            this.Arccosinus.Location = new System.Drawing.Point(581, 76);
             this.Arccosinus.Margin = new System.Windows.Forms.Padding(4);
             this.Arccosinus.Name = "Arccosinus";
             this.Arccosinus.Size = new System.Drawing.Size(64, 54);
@@ -306,7 +307,7 @@
             // 
             // TwoSquaringArgument
             // 
-            this.TwoSquaringArgument.Location = new System.Drawing.Point(344, 261);
+            this.TwoSquaringArgument.Location = new System.Drawing.Point(789, 76);
             this.TwoSquaringArgument.Margin = new System.Windows.Forms.Padding(4);
             this.TwoSquaringArgument.Name = "TwoSquaringArgument";
             this.TwoSquaringArgument.Size = new System.Drawing.Size(64, 54);
@@ -314,15 +315,15 @@
             this.TwoSquaringArgument.Text = "2^x";
             this.TwoSquaringArgument.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // TenSquaringArgument
             // 
-            this.button15.Location = new System.Drawing.Point(416, 261);
-            this.button15.Margin = new System.Windows.Forms.Padding(4);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(64, 54);
-            this.button15.TabIndex = 28;
-            this.button15.Text = "10^x";
-            this.button15.UseVisualStyleBackColor = true;
+            this.TenSquaringArgument.Location = new System.Drawing.Point(861, 75);
+            this.TenSquaringArgument.Margin = new System.Windows.Forms.Padding(4);
+            this.TenSquaringArgument.Name = "TenSquaringArgument";
+            this.TenSquaringArgument.Size = new System.Drawing.Size(64, 54);
+            this.TenSquaringArgument.TabIndex = 28;
+            this.TenSquaringArgument.Text = "10^x";
+            this.TenSquaringArgument.UseVisualStyleBackColor = true;
             // 
             // button16
             // 
@@ -340,16 +341,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1017, 463);
             this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
+            this.Controls.Add(this.TenSquaringArgument);
             this.Controls.Add(this.TwoSquaringArgument);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.Arccosinus);
-            this.Controls.Add(this.button9);
+            this.Controls.Add(this.OneDivisionArgument);
             this.Controls.Add(this.Arctangent);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.Ctangent);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.Arcsinus);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.Tangent);
             this.Controls.Add(this.SquaringTwoArguments);
             this.Controls.Add(this.Module);
             this.Controls.Add(this.Squaring);
@@ -365,7 +366,7 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
@@ -392,16 +393,16 @@
         private System.Windows.Forms.Button Sinus;
         private System.Windows.Forms.Button Logarithm;
         private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button TenSquaringArgument;
         private System.Windows.Forms.Button TwoSquaringArgument;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button Arccosinus;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button OneDivisionArgument;
         private System.Windows.Forms.Button Arctangent;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button Ctangent;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button Arcsinus;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button Tangent;
         private System.Windows.Forms.Button SquaringTwoArguments;
     }
 }
